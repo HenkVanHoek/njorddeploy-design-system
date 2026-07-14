@@ -1,1 +1,1 @@
-# piselfhosting-design-system
+# njorddeploy-design-system

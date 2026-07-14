@@ -1,4 +1,4 @@
-/* PiSelfhosting / SBCDeploy Official Futuristic Glassmorphic Theme */
+/* NjordDeploy / SBCDeploy Official Futuristic Glassmorphic Theme */
 
 :root, html[data-theme="dark"], html[data-theme="futuristic-dark"] {
     /* Glowing Neon Accent Colors */
@@ -216,6 +216,13 @@ html[data-theme="high-contrast-light"] .card:hover {
     border-radius: 6px;
     padding: 0.6em;
     transition: all 0.2s ease-in-out;
+}
+
+.form-control::placeholder,
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: var(--text-muted-color) !important;
+    opacity: 0.65 !important;
 }
 
 .form-control:focus, input[type="text"]:focus, input[type="password"]:focus {
