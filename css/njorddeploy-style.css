@@ -5,16 +5,16 @@
     --brand-green: #00e676; /* Neon Green */
     --brand-blue: #00b0ff;  /* Glowing Neon Blue */
     --brand-gray: #90a4ae;  /* Soft Gray-Blue */
-    
+
     /* Dark Theme Backgrounds */
     --dark-bg-start: #0a1128; /* Midnight Blue */
     --dark-bg-end: #02040a;   /* Rich Dark Black */
-    
+
     /* Glassmorphic Tokens */
     --glass-bg: rgba(30, 41, 59, 0.45); /* Semi-transparent dark slate */
     --glass-border: rgba(255, 255, 255, 0.08); /* Soft white border highlight */
     --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 176, 255, 0.22);
-    
+
     /* Override Bootstrap's Root Variables */
     --bs-body-bg: var(--dark-bg-end);
     --bs-body-color: #f8fafc; /* Very light slate text */
@@ -144,7 +144,7 @@ html[data-theme="high-contrast-light"] {
 /* 1. Base Body & Background */
 body {
     font-family: 'Roboto', sans-serif;
-    background: 
+    background:
         url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNTAnIGhlaWdodD0nMTUwJyB2aWV3Qm94PScwIDAgMTUwIDE1MCc+PGcgc3Ryb2tlPSdyZ2JhKDAsMTc2LDI1NSwwLjE1KScgc3Ryb2tlLXdpZHRoPScwLjUnPjxsaW5lIHgxPScxNScgeTE9JzE1JyB4Mj0nNzUnIHkyPSc0NScgLz48bGluZSB4MT0nNzUnIHkxPSc0NScgeDI9JzEzNScgeTI9JzE1JyAvPjxsaW5lIHgxPSc3NScgeTE9JzQ1JyB4Mj0nNDUnIHkyPScxMDUnIC8+PGxpbmUgeDE9JzQ1JyB5MT0nMTA1JyB4Mj0nMTUnIHkyPScxNScgLz48bGluZSB4MT0nNDUnIHkxPScxMDUnIHgyPScxMDUnIHkyPScxMjAnIC8+PGxpbmUgeDE9JzEwNScgeTE9JzEyMCcgeDI9JzEzNScgeTI9JzE1JyAvPjxsaW5lIHgxPScxMDUnIHkxPScxMjAnIHgyPSc3NScgeTI9JzQ1JyAvPjwvZz48ZyBmaWxsPSdyZ2JhKDAsMTc2LDI1NSwwLjI1KSc+PGNpcmNsZSBjeD0nMTUnIGN5PScxNScgcj0nMS41JyAvPjxjaXJjbGUgY3g9Jzc1JyBjeT0nNDUnIHI9JzInIC8+PGNpcmNsZSBjeD0nMTM1JyBjeT0nMTUnIHI9JzEuNScgLz48Y2lyY2xlIGN4PSc0NScgY3k9JzEwNScgcj0nMicgLz48Y2lyY2xlIGN4PScxMDUnIGN5PScxMjAnIHI9JzEuOCcgLz48L2c+PC9zdmc+") repeat,
         radial-gradient(circle at top left, var(--dark-bg-start), var(--dark-bg-end)) no-repeat;
     background-attachment: fixed;
@@ -153,14 +153,14 @@ body {
 }
 
 html[data-theme="dark"] body, html[data-theme="futuristic-dark"] body {
-    background: 
+    background:
         url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNTAnIGhlaWdodD0nMTUwJyB2aWV3Qm94PScwIDAgMTUwIDE1MCc+PGcgc3Ryb2tlPSdyZ2JhKDAsMTc2LDI1NSwwLjE1KScgc3Ryb2tlLXdpZHRoPScwLjUnPjxsaW5lIHgxPScxNScgeTE9JzE1JyB4Mj0nNzUnIHkyPSc0NScgLz48bGluZSB4MT0nNzUnIHkxPSc0NScgeDI9JzEzNScgeTI9JzE1JyAvPjxsaW5lIHgxPSc3NScgeTE9JzQ1JyB4Mj0nNDUnIHkyPScxMDUnIC8+PGxpbmUgeDE9JzQ1JyB5MT0nMTA1JyB4Mj0nMTUnIHkyPScxNScgLz48bGluZSB4MT0nNDUnIHkxPScxMDUnIHgyPScxMDUnIHkyPScxMjAnIC8+PGxpbmUgeDE9JzEwNScgeTE9JzEyMCcgeDI9JzEzNScgeTI9JzE1JyAvPjxsaW5lIHgxPScxMDUnIHkxPScxMjAnIHgyPSc3NScgeTI9JzQ1JyAvPjwvZz48ZyBmaWxsPSdyZ2JhKDAsMTc2LDI1NSwwLjI1KSc+PGNpcmNsZSBjeD0nMTUnIGN5PScxNScgcj0nMS41JyAvPjxjaXJjbGUgY3g9Jzc1JyBjeT0nNDUnIHI9JzInIC8+PGNpcmNsZSBjeD0nMTM1JyBjeT0nMTUnIHI9JzEuNScgLz48Y2lyY2xlIGN4PSc0NScgY3k9JzEwNScgcj0nMicgLz48Y2lyY2xlIGN4PScxMDUnIGN5PScxMjAnIHI9JzEuOCcgLz48L2c+PC9zdmc+") repeat,
         radial-gradient(circle at top left, var(--dark-bg-start), var(--dark-bg-end)) no-repeat;
     background-attachment: fixed;
 }
 
 html[data-theme="light"] body {
-    background: 
+    background:
         url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNTAnIGhlaWdodD0nMTUwJyB2aWV3Qm94PScwIDAgMTUwIDE1MCc+PGcgc3Ryb2tlPSdyZ2JhKDAsMCwwLDAuMDIpJyBzdHJva2Utd2lkdGg9JzAuNSc+PGxpbmUgeDE9JzE1JyB5MT0nMTUnIHgyPSc3NScgeTI9JzQ1JyAvPjxsaW5lIHgxPSc3NScgeTE9JzQ1JyB4Mj0nMTM1JyB5Mj0nMTUnIC8+PGxpbmUgeDE9Jzc1JyB5MT0nNDUnIHgyPSc0NScgeTI9JzEwNScgLz48bGluZSB4MT0nNDUnIHkxPScxMDUnIHgyPScxNScgeTI9JzE1JyAvPjxsaW5lIHgxPSc0NScgeTE9JzEwNScgeDI9JzEwNScgeTI9JzEyMCcgLz48bGluZSB4MT0nMTA1JyB5MT0nMTIwJyB4Mj0nMTM1JyB5Mj0nMTUnIC8+PGxpbmUgeDE9JzEwNScgeTE9JzEyMCcgeDI9Jzc1JyB5Mj0nNDUnIC8+PC9nPjxnIGZpbGw9J3JnYmEoMCwwLDAsMC4wMyknPjxjaXJjbGUgY3g9JzE1JyBjeT0nMTUnIHI9JzEuNScgLz48Y2lyY2xlIGN4PSc3NScgY3k9JzQ1JyByPScyJyAvPjxjaXJjbGUgY3g9JzEzNScgY3k9JzE1JyByPScxLjUnIC8+PGNpcmNsZSBjeD0nNDUnIGN5PScxMDUnIHI9JzInIC8+PGNpcmNsZSBjeD0nMTA1JyBjeT0nMTIwJyByPScxLjgnIC8+PC9nPjwvc3ZnPg==") repeat,
         radial-gradient(circle at top left, var(--dark-bg-start), var(--dark-bg-end)) no-repeat;
     background-attachment: fixed;
@@ -507,15 +507,15 @@ html[data-theme="high-contrast-light"] #view-tabs .nav-link {
     color: var(--text-muted-color) !important;
     border: 1px solid var(--glass-border) !important;
 }
-html[data-theme="high-contrast-dark"] .btn:disabled, 
-html[data-theme="high-contrast-dark"] .btn-success:disabled, 
+html[data-theme="high-contrast-dark"] .btn:disabled,
+html[data-theme="high-contrast-dark"] .btn-success:disabled,
 html[data-theme="high-contrast-dark"] .btn-primary:disabled {
     background: #27272a !important;
     color: #cbd5e1 !important;
     border: 1px solid #ffffff !important;
 }
-html[data-theme="high-contrast-light"] .btn:disabled, 
-html[data-theme="high-contrast-light"] .btn-success:disabled, 
+html[data-theme="high-contrast-light"] .btn:disabled,
+html[data-theme="high-contrast-light"] .btn-success:disabled,
 html[data-theme="high-contrast-light"] .btn-primary:disabled {
     background: #e4e4e7 !important;
     color: #1f2937 !important;
@@ -524,5 +524,3 @@ html[data-theme="high-contrast-light"] .btn-primary:disabled {
 .nav-link.disabled {
     color: var(--text-muted-color) !important;
 }
-
-
